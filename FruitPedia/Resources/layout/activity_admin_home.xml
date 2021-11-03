@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="35sp"
+        android:text="Admin Operations"
+        android:textStyle="bold"
+        android:fontFamily="@font/modak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+        <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Fruit Category"      
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+            android:fontFamily="@font/modak"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Fruit Category"      
+        android:background="@drawable/buttons"
+            android:fontFamily="@font/modak"
+        android:textColor="@color/colorText"
+        android:layout_below="@id/b1"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Fruit Category"
+        android:layout_below="@id/b2"      
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+            android:fontFamily="@font/modak"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Fruit"      
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+            android:fontFamily="@font/modak"
+        android:layout_below="@id/b3"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Fruit"
+        android:layout_below="@id/b4"      
+            android:fontFamily="@font/modak"
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:fontFamily="@font/modak"
+        android:text="Delete Fruit Details"
+        android:layout_below="@id/b5"      
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_below="@id/b6"      
+            android:fontFamily="@font/modak"
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="17dp" />
+    </RelativeLayout>
+
+</ScrollView>

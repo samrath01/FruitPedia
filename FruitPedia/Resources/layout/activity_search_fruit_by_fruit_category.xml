@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+
+    <RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textSize="35sp"
+        android:text="Search By Fruit Category"
+        android:textStyle="bold"
+        android:fontFamily="@font/modak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+        <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:padding="8dp"            
+        android:layout_below="@id/tv1"/>
+        <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Fruits"
+            android:fontFamily="@font/modak"
+        android:layout_below="@id/spinner" 
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="17dp" />
+        <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:layout_below="@id/b1" 
+        android:background="@drawable/buttons"
+        android:textColor="@color/colorText"
+            android:fontFamily="@font/modak"
+        android:layout_marginTop="17dp" />
+    </RelativeLayout>
+
+</ScrollView>
